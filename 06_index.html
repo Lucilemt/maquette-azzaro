@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/06_maquette.css">
+    <title>Maquette Azzaro</title>
+</head>
+<body class="container-fluid">
+    <div class="container my-2">
+        <!-------------------------------------début du header------------------------------------->
+        <header>
+            <!-- row Ma boutique, besoin d'aide, Mon compte/panier -->
+            <div class="row">
+                 <!-- H1 ma boutique+ txt vente -->
+                <div class="col-lg-5 boutique">
+                    <div class="row">
+                        <div class="col-1 pe-0">
+                            <img class="img-fluid logo" src="img/logo.png" alt="Logo de ma boutique">
+                        </div>
+                        <div class="col-11 px-3">
+                            <h1>Ma Boutique</h1>
+                            <p class="vente">Vente en ligne : Mode, Tendance et Déco</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- besoin d'aide -->
+                <div class="col-lg-4">
+                    <h2>Besoin d'aide ?</h2>
+                    <div class="panneau">
+                        <img class="img-fluid" src="img/aide.png" alt="numéro aide téléphone">
+                        <h6 class="numero ps-5 my-1">0800 10 28 10</h6>
+                    </div>
+                    <p class="horaires">Du lundi au vendredi de 10h à 17h30</p>
+                </div>
+                <!-- mon compte + panier -->
+                <div class="col-lg-3">
+                    <!-- mon compte -->
+                    <div class="row text-center compte">
+                        <p>Mon Compte</p>
+                    </div>
+                    <!-- panier -->
+                    <div class="row mt-1 justify-content-center articlepanier">
+                        <div class="col-2 basket">
+                            <img class="img-fluid" src="img/article.png" alt="panier article">
+                        </div>
+                        <div class="col-8 pt-3"> 
+                            <p class="panier">article(s) dans votre panier</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin row -->
+            <!-- nav bar -->
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light mt-1 py-1">
+                    <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav w-100 justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Vetements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Maison</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Technologie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bijoux</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Idées Cadeaux</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- fin nav bar -->
+        </header>
+        <!--------------------------------------fin du header-------------------------------------->
+        <!--------------------------------------début du main-------------------------------------->
+        <main>
+            <!-- div img -->
+            <div class="row">
+                <img class="img-fluid bandeau" src="img/bandeau.png" alt="image bandeau parfum">
+            </div>
+            <!-- fin div img -->
+
+            <!-- row avec 3 col : paiement, qui sommes nous, services -->
+            <div class="row my-lg-4 details">
+                <div class="col-lg-3">
+                    <h3>Paiement sécurisé</h3>
+                    <p>Reglez vos achats en toute sérénité sur maboutique.com</p>
+                    <img class="img-fluid" src="img/paiement.png" alt="type paiement acceptés">
+                </div>   
+
+                <div class="col-lg-7 sommesnous">
+                    <h3>Qui sommes-nous ?</h3>
+                    <p>Bienvenue chez MaBoutique! MaBoutique est la plus grande boutique en ligne de France
+                    consacrée à la mode et à la beauté pour femmes et hommes.<br>
+                    Nous proposons plus de 850 marques ainsi que nos propres collections.<br>
+                    N'hésitez plus ! Les livraisons et les retours sont gratuits.<br>
+                    Retrait possible de votre commande dans notre entrepot sur RDV.</p>
+
+                </div>
+                <div class="col-lg-2">
+                    <h3>Services</h3>
+                    <p><img src="img/camion.png" class="livaison pe-3" alt="logo livraison">Livraison sous 48h</p>
+                    <p><img src="img/echange.png" class="echange pe-3" alt="logo echange">Produits Echangeables</p>
+
+                </div>
+            </div>
+
+            <!-- fin row paiement, qui sommes nous, services -->
+
+            <!-- 3 cards -->
+            <div class="row justify-content-around">
+                <div class="col-lg-3 robe">
+                    <p class="titre text-center">Bon Plan</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid ps-3" src="img/robe.png" alt="robe">
+                        </div>
+                        <div class="col-9">
+                            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla
+                            </p>
+                            <p class="voir pe-4"><a class="voir" href="#">Voir</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 talon">
+                    <p class="titre text-center">Coup de coeur</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid ps-3" src="img/talons.png" alt="talon">
+                        </div>
+                        <div class="col-9">
+                            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla 
+                            </p>
+                            <p class="voir pe-4"><a class="voir" href="#">Voir</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 chemise">
+                    <p class="titre text-center">Objectif Plaisir</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid ps-3" src="img/chemise.png" alt="chemise">
+                        </div>
+                        <div class="col-9">
+                            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla  
+                            </p>
+                            <p class="voir pe-4"><a class="voir" href="#">Voir</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- fin 3 cards -->
+
+        </main>
+        <!---------------------------------------fin du main--------------------------------------->
+        <!-------------------------------------début du footer------------------------------------->
+        <footer>
+            <!-- 1 row -->
+            <div class="row mt-4 justify-content-evenly">
+                <div class="row text-center justify-content-center navfoot">
+                    <p>
+                        <a href="#newsletter">Newsletter - </a>
+                        <a href="#promotions">Promotions - </a>
+                        <a href="#nouveauproduits">Nouveaux Produits - </a>
+                        <a href="#meilleuresventes">Meilleures ventes - </a>
+                        <a href="#mentionslegales">Mentions légales - </a>
+                        <a href="#cgv">CGV - </a>
+                        <a href="#contacteznous">Contactez-nous</a>
+                    </p>
+                </div>
+            </div>
+            <!-- fin row -->
+
+        </footer>
+        <!--------------------------------------fin du footer-------------------------------------->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

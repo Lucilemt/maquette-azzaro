@@ -1,0 +1,172 @@
+body {
+    background: #dedede;
+}
+.container{
+    background: white;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 10px grey;
+    
+}
+p {
+    font-size: .8rem;
+}
+/* Début du header ---------------------------------------------*/
+
+/* logo */
+.logo {
+    width: auto;
+    height: auto;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+/* titre Ma boutique */
+.boutique {
+    font-style: italic;
+    position: relative;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.vente {
+    color: #f583e3;
+}
+
+/* Aide */
+h2, h3 {
+    color: #53d2f6;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.panneau {
+    position: relative;
+}
+
+.numero {
+    color: #53d2f6;
+    position: absolute;
+    bottom: 0;
+}
+
+.horaires {
+    font-style: italic;
+    color: grey;
+}
+
+/* Mon compte + panier */
+.compte {
+    background: #53d2f6;
+    color: white;
+    height: 2rem;
+}
+
+.articlepanier {
+    background: #53d2f6;
+    color: white;
+}
+
+.basket {
+    width: auto;
+    height: auto;
+}
+
+/* nav------ */
+nav {
+    background: #53d2f6;
+    height: 3rem;
+
+}
+
+/* .nav-item {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+} */
+
+nav a {
+    color: white !important;
+    font-size: 1rem;
+}
+
+.active {
+    background: #f583e3;
+}
+
+/* Fin du header -----------------------------------------------*/
+
+/* Début du main -----------------------------------------------*/
+
+.bandeau {
+    padding: 0 !important;
+    width: 100%;
+    height: auto;
+}
+
+/* infos */
+.barre {
+    height: 20%;
+}
+
+.details {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.sommesnous {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+/* fin info */
+
+/* cards */
+.robe {
+    border: 1px solid grey;
+    padding: 0;
+    border-radius: 2%;
+}
+
+.talon {
+    border: 1px solid grey;
+    padding: 0;
+    border-radius: 2%;
+}
+
+.chemise {
+    border: 1px solid grey;
+    padding: 0;
+    border-radius: 2%;
+}
+
+.voir {
+    color: #53d2f6;
+    text-align: end;
+}
+
+
+.titre {
+    background: #d9d9d9;
+    font-weight: bold;
+}
+
+/* Fin du main -------------------------------------------------*/
+
+/* Début du footer ---------------------------------------------*/
+footer {
+    height: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.navfoot {
+    background: #53d2f6;
+}
+
+/* Fin du footer -----------------------------------------------*/
